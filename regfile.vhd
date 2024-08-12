@@ -22,7 +22,7 @@ component decode16 is
 	port(
 		en					: in std_logic;
 		i					: in std_logic_vector(3 downto 0);
-		D					: out std_logic_vector(15 downto 0));
+		D					: out std_logic_vector(3 downto 0));
 end component;
 
 component reg16 is
